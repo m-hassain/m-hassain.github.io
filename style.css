@@ -239,6 +239,53 @@ p {
     font-weight: 600;
 }
 
+/* Publication List */
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 0;
+}
+
+.publication-item {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1.5rem;
+    transition: transform var(--transition-speed);
+}
+
+.publication-item:last-child {
+    border-bottom: none;
+}
+
+.publication-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    color: var(--text-primary);
+}
+
+.publication-item .date {
+    font-size: 0.9rem;
+    color: var(--accent-teal);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.publication-item p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.publication-item a {
+    color: var(--accent-gold);
+    text-decoration: none;
+}
+
+.publication-item a:hover {
+    text-decoration: underline;
+}
+
 /* Contact Form */
 .contact-container {
     max-width: 600px;
