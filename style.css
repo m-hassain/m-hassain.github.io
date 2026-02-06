@@ -115,11 +115,20 @@ main {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--font-heading);
     color: var(--text-primary);
     margin-bottom: 1rem;
@@ -190,8 +199,8 @@ p {
 }
 
 .hero-image img {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid var(--accent-teal);
@@ -362,7 +371,7 @@ footer {
         width: 100%;
         background-color: var(--bg-secondary);
         padding: 1rem;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     nav ul.show {
@@ -376,10 +385,10 @@ footer {
     }
 
     .hero-image img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
     }
-    
+
     h1 {
         font-size: 2.5rem;
     }
